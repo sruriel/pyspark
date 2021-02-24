@@ -1,0 +1,10 @@
+{"key":"BDorigen", "name":"spark_data"},
+{"key":"BDdestino", "name":"Citibanamex2"},
+{"key":"tblEcobici", "name":"ecobici"},
+{"key":"ModoOR", "name":"overwrite"},
+{"key":"ModoApp", "name":"append"},
+{"key":"tblH", "name":"ecobici_hombres"},
+{"key":"tblM", "name":"ecobici_mujeres"},
+{"key":"CamposM", "name":"genero_usuario,edad_usuario,fecha_retiro,hora_retiro"},
+{"key":"CONDICIONES", "name":"edad_usuario> 30 and genero_usuario='M'"},
+{"key":"CamposH", "name":"genero_usuario,edad_usuario,ciclo_estacion_retiro"}
