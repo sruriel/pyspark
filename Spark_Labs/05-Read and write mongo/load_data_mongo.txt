@@ -1,0 +1,4 @@
+Twitter
+
+
+mongoimport --db test --collection phones  —type json —file phones.json

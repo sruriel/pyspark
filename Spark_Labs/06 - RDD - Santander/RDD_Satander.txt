@@ -1,0 +1,60 @@
+Jose,Perez,34
+Enrique,Lopez,44
+Maria,Martinez,54
+Elena,Hernandez,64
+harry,potter,42
+harry,potter,43
+harry,potter,441
+harry,potter,3468
+harry,potter,9034
+Mario,Lopez,4534
+Juan,Martinez,6734
+
+
+person3 = person2.map(lambda x: Row(nombre=x[0],apellido=x[1],sueldo=int(x[2])))
+
+
+from pyspark.sql import Row
+santander = sc.textFile("/user/cloudera/santander/train_ver2.csv").map(lambda x: x.split(","))
+data = santander.map(lambda x: Row(fecha_dato=x[0] ,	ncodpers=x[1] ,	ind_empleado=x[2] ,	
+pais_residencia=x[3] ,	
+sexo=x[4] ,	age=x[5] ,	fecha_alta=x[6] ,	ind_nuevo=x[7] ,	antiguedad=x[8] ,	
+indrel=x[9] ,	ult_fec_cli_1t=x[10] ,	
+indrel_1mes=x[11] ,	tiprel_1mes=x[12] ,	indresi=x[13] ,	indext=x[14] ,	conyuemp=x[15] ,	
+canal_entrada=x[16] ,	
+indfall=x[17] ,	tipodom=x[18] ,	cod_prov=x[19] ,	nomprov=x[20] ,	
+ind_actividad_cliente=x[21] ,	renta=x[22] ,	segmento=x[23]  ))
+dfSantander = sqlContext.createDataFrame(data)
+type(dfSantander)
+
+
+
+
+
+santander = sc.textFile("/user/cloudera/santander/train_ver2.csv").map(lambda x: x.split(","))
+
+
+santander_mujeres = santander.filter(lambda x: x[4] == 'V')
+
+
+
+santander_hombres = santander.filter(lambda x: x[4] == 'H')
+
+
+
+import org.apache.spark.sql.SQLContext
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.hive.HiveContext
+import org.apache.spark.sql._
+import org.apache.spark.sql.types._
+import org.apache.spark.sql.functions._
+import java.sql.{Connection,DriverManager}
+
+
+santander_h.write.mode(SaveMode.Overwrite).saveAsTable("spark_data.santander_h")
+val santander_h = santander.select("age","antiguedad","sexo").where("sexo = 'H' or sexo= 'V'")
+val santander_add = santander_h.withColumn("nueva_col",concat($"sexo",lit("xxx"))).withColumn("edad", $"age" * 10)
+santander_add.write.mode(SaveMode.Overwrite).saveAsTable("spark_data.santander_add")
+
+

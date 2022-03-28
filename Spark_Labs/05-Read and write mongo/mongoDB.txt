@@ -1,0 +1,60 @@
+spark-shell --conf "spark.mongo.input.uri=mongodb://35.172.135.158/" --conf "spark.mongo.output.uri=mongodb://35.172.135.158/" --conf "spark.mongodb.input.database=test" --conf "spark.mongodb.input.collection=twitter"   --conf "spark.mongodb.input.uri=mongodb://35.172.135.158/test.twitter?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://35.172.135.158/test.twitter?readPreference=primaryPreferred" --conf "spark.mongodb.output.database=test" --conf "spark.mongodb.output.collection=twitter" --packages org.mongodb.spark:mongo-spark-connector_2.10:0.1
+
+
+
+spark-shell --conf "spark.mongo.input.uri=mongodb://35.172.135.158/" --conf "spark.mongo.output.uri=mongodb://35.172.135.158/" --conf "spark.mongodb.input.database=test" --conf "spark.mongodb.input.collection=twitter" --conf "uri=mongodb://35.172.135.158/test.twitter" --packages org.mongodb.spark:mongo-spark-connector_2.10:0.1 --conf "spark.mongodb.input.uri=mongodb://35.172.135.158/test.twitter?readPreference=primaryPreferred"
+
+
+import com.mongodb.spark._
+import org.bson.Document
+import com.mongodb.spark.rdd.MongoRDD
+import com.mongodb.spark.sql._
+import com.mongodb.spark.config._
+
+
+
+import scala.util.{Failure, Success, Try}
+
+import org.bson.{BsonDocument, BsonInt64}
+import com.mongodb.MongoCommandException
+import com.mongodb.client.MongoCollection
+import com.mongodb.spark.MongoConnector
+import com.mongodb.spark.config.ReadConfig
+
+
+
+
+val readConfig = ReadConfig(Map("collection" -> "spark", "readPreference.name" -> "secondaryPreferred"), Some(ReadConfig(sc)))
+val rdd = sc.loadFromMongoDB()
+val readConf = ReadConfig(sc)
+
+
+import com.mongodb.spark._
+import com.mongodb.spark.config._
+import org.bson.Document
+
+val docs = """
+      {"name": "Bilbo Baggins", "age": 50}
+      {"name": "Gandalf", "age": 1000}
+      {"name": "Thorin", "age": 195}
+      {"name": "Balin", "age": 178}
+      {"name": "Kíli", "age": 77}
+      {"name": "Dwalin", "age": 169}
+      {"name": "Óin", "age": 167}
+      {"name": "Glóin", "age": 158}
+      {"name": "Fíli", "age": 82}
+      {"name": "Bombur"}""".trim.stripMargin.split("[\\r\\n]+").toSeq
+      
+      
+      
+sc.parallelize(docs.map(Document.parse)).saveToMongoDB()
+
+
+//Dataframes
+
+
+val df6 = sqlContext.read.format("com.mongodb.spark.sql").load()
+df6.select("user.lang", "user.id_str","text").show
+
+
+df6.saveAsTable("spark_data.twitter_mongo")

@@ -1,0 +1,4 @@
+hadoop is fast
+hive is sql on hdfs
+spark is superfast
+spark is awesome

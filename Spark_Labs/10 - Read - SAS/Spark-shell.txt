@@ -1,0 +1,12 @@
+spark-shell --master yarn-client --jars spark-sas7bdat-2.0.0-s_2.10.jar,parso-2.0.7.jar  --driver-memory 25G --driver-cores 3 --executor-memory 25G  --executor-cores 5 --num-executors 15
+
+
+import org.apache.spark.sql.types.{StructType, StructField, StringType, DoubleType}
+import com.github.saurfang.sas.spark._
+import com.epam.parso.impl.SasFileReaderImpl
+
+
+
+val sasfile = sqlContext.read.format("com.github.saurfang.sas.spark").load("/user/cloudera/SAS/subset.sas7bdat")
+
+val tweet = sqlContext.read.format(“json”).load("/user/cloudera/tweet/tweet.json”)

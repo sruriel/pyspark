@@ -1,0 +1,426 @@
+{
+  "solicitudes_octo" : {
+    "-Kxt7bfB6Gp-debhcCho" : {
+      "avisoPrivacidad" : 1509565811887,
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "Avenida Cerro de las Torres, 395, Campestre Churubusco,Coyoacan, Ciudad de México, 04200, Corporativo GNP Seguros",
+          "city" : "Coyoacan",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "alberto.hidalgo@gnp.com.mx",
+          "firstName" : "Alberto",
+          "lastName" : "Hidalgo  Tirado",
+          "make" : "Mercedes Benz",
+          "model" : "ML500",
+          "policyNumber" : "0026128736",
+          "primaryTelephone" : "5547666621",
+          "stateCode" : "CX",
+          "vat" : "00000249440785",
+          "vehicleRegistrationDate" : "2014",
+          "vin" : "4JGDA7DB2EA415952",
+          "zipCode" : "04200"
+        } ]
+      }
+    },
+    "-KyHCFe0Xv3C2BBRuvoJ" : {
+      "avisoPrivacidad" : 1509986459238,
+      "bandera_enviado" : true,
+      "error_proceso" : false,
+      "mensaje_proceso" : {
+        "voucherOperation" : {
+          "resultCode" : "00",
+          "resultMessage" : "",
+          "vin" : "4JGDA7DB2EA415952",
+          "voucherCreationDate" : "2017-11-06 16:41:21",
+          "voucherNumber" : 20053212
+        }
+      },
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "Avenida Cerro de las Torres, 395, Campestre Churubusco,Coyoacan, Corporativo GNP Seguros",
+          "city" : "Coyoacan",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "alberto.hidalgo@gnp.com.mx",
+          "firstName" : "Alberto",
+          "lastName" : "Hidalgo  Tirado",
+          "make" : "Mercedes Benz",
+          "model" : "ML500",
+          "policyNumber" : "00000249440785",
+          "primaryTelephone" : "5547666621",
+          "stateCode" : "CX",
+          "vat" : "0026128736",
+          "vehicleRegistrationDate" : "2014",
+          "vin" : "4JGDA7DB2EA415952",
+          "zipCode" : "04200"
+        } ]
+      }
+    },
+    "-KyMtlcusJZxLU7gsXOc" : {
+      "avisoPrivacidad" : 1510082009818,
+      "bandera_enviado" : true,
+      "error_proceso" : false,
+      "mensaje_proceso" : {
+        "voucherOperation" : {
+          "resultCode" : "00",
+          "resultMessage" : "",
+          "vin" : "1VWCM7A34GC035794",
+          "voucherCreationDate" : "2017-11-07 19:13:57",
+          "voucherNumber" : 20053625
+        }
+      },
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "Contoy, 288, Heroes de Padierna,tlalpan , entre halacho y tenosique",
+          "city" : "tlalpan ",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "marcosantana@yahoo.com",
+          "firstName" : "Marco Antonio",
+          "lastName" : "Santana Aldape",
+          "make" : "VW",
+          "model" : "passat V6",
+          "policyNumber" : "333236",
+          "primaryTelephone" : "5514038038",
+          "stateCode" : "CX",
+          "vat" : "230040099",
+          "vehicleRegistrationDate" : "2016",
+          "vin" : "1VWCM7A34GC035794",
+          "zipCode" : "14200"
+        } ]
+      }
+    },
+    "-KyN5kVlOtbri84ycktE" : {
+      "avisoPrivacidad" : 1510085426480,
+      "bandera_enviado" : true,
+      "error_proceso" : false,
+      "mensaje_proceso" : {
+        "voucherOperation" : {
+          "resultCode" : "00",
+          "resultMessage" : "",
+          "vin" : "WBA8E1106HK829578",
+          "voucherCreationDate" : "2017-11-07 20:10:34",
+          "voucherNumber" : 20053642
+        }
+      },
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "Avenida Cerro de las Torres, 395, Campestre Churubusco,Coyoacan, Corporativo GNP Seguros",
+          "city" : "Coyoacan",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "jesus.zuniga@gnp.com.mx",
+          "firstName" : "Jesús Alfonso",
+          "lastName" : "Zuñiga SanMartin",
+          "make" : "BMW",
+          "model" : "33e",
+          "policyNumber" : "942221",
+          "primaryTelephone" : "52273599",
+          "stateCode" : "CX",
+          "vat" : "218546257",
+          "vehicleRegistrationDate" : "2017",
+          "vin" : "WBA8E1106HK829578",
+          "zipCode" : "04200"
+        } ]
+      }
+    },
+    "-KyNRDfcKUcest0CPBaE" : {
+      "avisoPrivacidad" : 1510091048947,
+      "bandera_enviado" : true,
+      "error_proceso" : false,
+      "mensaje_proceso" : {
+        "voucherOperation" : {
+          "resultCode" : 98,
+          "resultMessage" : "Error in Number value  for YEAR = 2013|",
+          "vin" : "WAUACC8K5DA124023",
+          "voucherNumber" : -1
+        }
+      },
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "NICOLAS ROMERO, 11, SAN JUANITO,TEXCOCO, ENTRE CALLE TENERIA Y MIGUEL HIDALGO",
+          "city" : "TEXCOCO",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "gnptexcoco@prodigy.net.mx",
+          "firstName" : "RAFAEL",
+          "lastName" : "PIÑA ROLDAN",
+          "make" : "AUDI",
+          "model" : "A4 1.8 T SPORT MULTITRONIC",
+          "policyNumber" : "1122833",
+          "primaryTelephone" : "5535405754",
+          "stateCode" : "CX",
+          "vat" : "220418982",
+          "vehicleRegistrationDate" : "2013|",
+          "vin" : "WAUACC8K5DA124023",
+          "zipCode" : "56170"
+        } ]
+      }
+    },
+    "-KyRE1ydEUfrUYaavq8L" : {
+      "avisoPrivacidad" : 1510154693684,
+      "bandera_enviado" : true,
+      "error_proceso" : false,
+      "mensaje_proceso" : {
+        "voucherOperation" : {
+          "resultCode" : "00",
+          "resultMessage" : "",
+          "vin" : "1VWCM7A34GC035794",
+          "voucherCreationDate" : "2017-11-08 15:25:22",
+          "voucherNumber" : 20053852
+        }
+      },
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "CONTOY, 288, HÉROES DE PADIERNA,Tlalpan, entre Halacho y Tenosique",
+          "city" : "Tlalpan",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "marcosantana@yahoo.com",
+          "firstName" : "marco antonio ",
+          "lastName" : "santana aldape",
+          "make" : "VW",
+          "model" : "Passat v6",
+          "policyNumber" : "333236",
+          "primaryTelephone" : "5514038038",
+          "stateCode" : "CX",
+          "vat" : "230040099",
+          "vehicleRegistrationDate" : "2016",
+          "vin" : "1VWCM7A34GC035794",
+          "zipCode" : "14200"
+        } ]
+      }
+    },
+    "-KyqCVEcNnxdl7FQHWH4" : {
+      "avisoPrivacidad" : 1510590504915,
+      "bandera_enviado" : true,
+      "error_proceso" : false,
+      "mensaje_proceso" : {
+        "voucherOperation" : {
+          "resultCode" : 99,
+          "resultMessage" : "ORA-00904: \"CO\": invalid identifier",
+          "vin" : "WAUACC8K5DA124023",
+          "voucherNumber" : -1
+        }
+      },
+      "voucherProcess" : {
+        "voucherOperation" : [ {
+          "address" : "NICOLAS ROMERO, 11, SAN JUANITO,TEXCOCO, ENTRE CALLE TENERIA Y MIGUEL HIDALGO",
+          "city" : "TEXCOCO",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "gnptexcoco@prodigy.net.mx",
+          "firstName" : "RAFAEL",
+          "lastName" : "PIÑA ROLDAN",
+          "make" : "AUDI",
+          "model" : "A4 1.8 T SPORT MULTITRONIC",
+          "policyNumber" : "1122833",
+          "primaryTelephone" : "5959550957",
+          "stateCode" : "CX",
+          "vat" : "220418982",
+          "vehicleRegistrationDate" : "2013",
+          "vin" : "WAUACC8K5DA124023",
+          "zipCode" : "56170"
+        } ]
+      }
+    },
+    "-Kze5zgBkH8dOpXyYUq7" : {
+      "avisoPrivacidad" : 1511461215280,
+      "bandera_enviado" : false,
+      "commercialProcess" : {
+        "commercialOperation" : [ {
+          "address" : "teotihuacan mza 2 , 48-b, valle de santiago,ecatepec, undefined",
+          "city" : "ecatepec",
+          "companyFlag" : "N",
+          "contractType" : "2144",
+          "email" : "palomino_jesusj@yahoo.com.mx",
+          "firstName" : "carmen",
+          "lastName" : "flores Farias",
+          "policyNumber" : "129212",
+          "primaryTelephone" : "5520980651",
+          "stateCode" : "CX",
+          "vat" : "221709785",
+          "vehicle" : [ {
+            "make" : "nissan",
+            "model" : "altima",
+            "vin" : "1n4al2a91an426360",
+            "year" : "2010"
+          } ],
+          "zipCode" : "55130"
+        } ]
+      }
+    }
+  },
+  "solicitudes_prolog" : {
+    "-KwucCLCxT0AHbW9JzKC" : {
+      "amaterno" : "Caranza",
+      "anio" : "2010",
+      "apaterno" : "Bastar",
+      "avisoPrivacidad" : 1508517130728,
+      "bandera_enviado" : true,
+      "cliente" : "999",
+      "email" : "karime.bastar@gnp.com.mx",
+      "marca" : "Mazda",
+      "modelo" : "5",
+      "nombre" : "Karime",
+      "nombre2" : "Patricia",
+      "poliza" : "999",
+      "telefono" : "123",
+      "vigencia" : "2017-10-20T11:31:02.008-05:00",
+      "vin" : "MZ123456789"
+    },
+    "-Kx9WnP9p6uLrnkaYizs" : {
+      "amaterno" : "Aranda",
+      "anio" : "2017",
+      "apaterno" : "Cisneros",
+      "avisoPrivacidad" : 1508783886167,
+      "bandera_enviado" : true,
+      "cliente" : "54322917",
+      "email" : "rodo@gnp.com.mx",
+      "marca" : "Mini",
+      "modelo" : "Cooper S",
+      "nombre" : "Luis",
+      "nombre2" : "rodolfo",
+      "poliza" : "54322917",
+      "telefono" : "5554322917",
+      "vigencia" : "2017-10-23T13:36:32.438-05:00",
+      "vin" : "MC097767685786554"
+    },
+    "-KyJ519ODILAp0yRjVFE" : {
+      "amaterno" : "rosete",
+      "anio" : "2014",
+      "apaterno" : "gutierrez",
+      "avisoPrivacidad" : 1510018115291,
+      "bandera_enviado" : true,
+      "cliente" : "0000168090",
+      "email" : "contacto@roseteycia.com",
+      "marca" : "nissan",
+      "modelo" : "versa",
+      "nombre" : "german",
+      "poliza" : "248618613",
+      "telefono" : "5547538732",
+      "vigencia" : "2017-10-30T06:00:00.000Z",
+      "vin" : "3N1CN7AD1EL873357"
+    },
+    "-KzVNPTKi1KjjL3qb00K" : {
+      "amaterno" : "OROZCO",
+      "anio" : "2015",
+      "apaterno" : "HERRERA",
+      "avisoPrivacidad" : 1511298000450,
+      "cliente" : "178226",
+      "email" : "mario@vipseguros.com.mx",
+      "marca" : "FIAT",
+      "modelo" : "500 TRENDY",
+      "nombre" : "MARIO",
+      "nombre2" : "CONRADO",
+      "poliza" : "224007591",
+      "telefono" : "35362856",
+      "vigencia" : "2017-11-21T14:57:40.296-06:00",
+      "vin" : "3C3AFFAR5FT594698"
+    },
+    "-KzlFQQLhCtkWbaqlz4T" : {
+      "amaterno" : "ALVARADO",
+      "anio" : "2016",
+      "apaterno" : "BAQUEDANO",
+      "avisoPrivacidad" : 1511482140537,
+      "bandera_enviado" : true,
+      "cliente" : "0003771487",
+      "email" : "jorgebaquedano@aybseguros.com.mx",
+      "marca" : "SUZUKI",
+      "modelo" : "VITARA GLX ALL GRIP",
+      "nombre" : "JORGE",
+      "nombre2" : "ARMANDO",
+      "poliza" : "214394413",
+      "telefono" : "5516483883",
+      "vigencia" : "2017-11-23T06:00:00.000Z",
+      "vin" : "TSMYE21S7GM162728"
+    }
+  },
+  "usuarios" : {
+    "0besYKtbRiflDquzbw3PwC4Vnbd2" : {
+      "role" : "PROLOG"
+    },
+    "1n5EewsajeeGhkECBon2TgyIsfe2" : {
+      "role" : "OCTO"
+    },
+    "1tDgFadkSGfIwJwb4zesxRnMtvL2" : {
+      "role" : "OCTO"
+    },
+    "4jzr3zMi4QdVbF3lr5q0S9qaYAB3" : {
+      "role" : "PROLOG"
+    },
+    "Faly4GdsoUhE5OGqBVUK3DhjpUJ3" : {
+      "role" : "PROLOG"
+    },
+    "HYAH83pSYyTrURvdFykBN62Ycgm2" : {
+      "role" : "OCTO"
+    },
+    "LBGrgjJyRsZdsTSwOgRieqC2p8C3" : {
+      "role" : "OCTO"
+    },
+    "MCJxaGuHYdXXCHwj21eCsYDVXZA3" : {
+      "role" : "OCTO"
+    },
+    "PLUWPzfM63XjVZw6GL7OoeiQX9P2" : {
+      "role" : "ADMIN"
+    },
+    "RUiBq0KS7tdb3jIF404ZJVMCZV73" : {
+      "role" : "PROLOG"
+    },
+    "TBUoM1u4fcPRYkzk2iHLr8NhBDa2" : {
+      "role" : "OCTO"
+    },
+    "TKS6AHpdQWWCXz2lEespEMviOBD2" : {
+      "role" : "OCTO"
+    },
+    "TptZbLIA7kMsvyjaDzgdpRDogxH2" : {
+      "role" : "OCTO"
+    },
+    "UMHYfNLopPRU8qpgIE15zKop2Ug2" : {
+      "role" : "PROLOG"
+    },
+    "XJDU2jHmDaXURKx7qjcwEUuOkaT2" : {
+      "role" : "OCTO"
+    },
+    "ZfYLzTE2wkbJnAIUTiLNLdNU6Av1" : {
+      "role" : "OCTO"
+    },
+    "eoTsAzSuiZVz7Ngk9JDeO4E8YcG3" : {
+      "role" : "PROLOG"
+    },
+    "fyPUOCsfSIaag41iy6vJgcTNdqr1" : {
+      "role" : "OCTO"
+    },
+    "gUZgZiE3aFRNorXVuzXGR8LLsup1" : {
+      "role" : "ADMIN"
+    },
+    "gyZeVmHy2jNp3RjXnUb8XAOUy2Y2" : {
+      "role" : "PROLOG"
+    },
+    "h4m6n5r97ZaYXFAkcODayB93PL42" : {
+      "role" : "OCTO"
+    },
+    "ko7MRT6Jwafz19171KBZU1EdBKJ3" : {
+      "role" : "PROLOG"
+    },
+    "lJSFDxp1GhMh3bRx91WL971Kvw82" : {
+      "role" : "OCTO"
+    },
+    "wyPvExlx89cbF7TSmiG9zSEZxo43" : {
+      "role" : "PROLOG"
+    },
+    "xG1qPtFiKcfqkOSFBWeVmCDt0WH3" : {
+      "role" : "PROLOG"
+    },
+    "yTxDsWVPyQbTCEfNPYlMGD9nB872" : {
+      "role" : "PROLOG"
+    },
+    "ypbN1fQx84aFd5vfqTarF8BqBZj2" : {
+      "role" : "PROLOG"
+    },
+    "zbX5e6ypXnXxIA8pXJvxG69GBDL2" : {
+      "role" : "OCTO"
+    }
+  }
+}

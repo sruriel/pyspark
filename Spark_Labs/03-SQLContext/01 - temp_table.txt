@@ -1,0 +1,19 @@
+import org.apache.spark.sql._
+import sqlContext._
+import org.apache.spark.sql.hive.HiveContext
+import scala.sys.process._
+import org.apache.spark.sql.Row
+import org.apache.spark.sql.types.{StructType, StructField, StringType,IntegerType}
+
+
+val sqlContext = new org.apache.spark.sql.SQLContext(sc)
+
+val person = sc.textFile("/user/cloudera/person/person.txt")
+
+val schema = StructType(Array(StructField("firstName",StringType,true),StructField("lastName",StringType,true),StructField("age",IntegerType,true)))
+val rowRDD = person.map(_.split(",")).map(p => org.apache.spark.sql.Row(p(0),p(1),p(2).toInt))
+val personSchemaRDD = sqlContext.applySchema(rowRDD, schema)
+personSchemaRDD.registerTempTable("person")
+val query_full = sqlContext.sql("select * from person")
+query_full.saveAsTable("spark_data.person_full")
+sqlContext.sql("select * from person").foreach(println)

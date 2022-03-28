@@ -1,0 +1,7 @@
+from pyspark.sql import Row
+from pyspark.sql.types import *
+
+hadoop = sc.textFile(“/user/cloudera/person/hadoop.txt”)
+counts = hadoop.flatMap(lambda line: line.split(' ')).map(lambda word: (word, 1)).reduceByKey(lambda a, b: a + b)
+counts2 = counts.toDF(“llave”,”valor”)
+counts.collect()
